@@ -14,14 +14,14 @@ import dlib
 from PIL import Image
 
 
-path_to_searching = input("pleasse Enter path to search")
+path_to_searching = input("Enter path to search: ")
 list_of_path = list()
 for root,dirs,files in os.walk(path_to_searching):
     for file in files:
         if file.endswith('jpg'):
             list_of_path.append(os.path.join(root, file))
             
-image_comp_path = input("please enter the image path")
+image_comp_path = input("Enter the image path: ")
 image_to_compare = face_recognition.load_image_file(image_comp_path)
 image_to_encoding = face_recognition.face_encodings(image_to_compare)
 
