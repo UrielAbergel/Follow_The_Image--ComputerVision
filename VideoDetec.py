@@ -10,7 +10,7 @@ import cv2
 import dlib
 import face_recognition
 
-catch_web_stream = cv2.VideoCapture("testvid.mp4")
+catch_web_stream = cv2.VideoCapture("Picture_for_test/testvid.mp4")
 
 all_face_location = [] 
 

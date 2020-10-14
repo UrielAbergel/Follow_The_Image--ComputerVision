@@ -9,7 +9,7 @@ Created on Wed Oct 14 15:12:31 2020
 import face_recognition
 from PIL import Image , ImageDraw
 
-face_image = face_recognition.load_image_file("uriel")
+face_image = face_recognition.load_image_file("Picture_for_test/uriel")
 
 face_landmark_list = face_recognition.face_landmarks(face_image)
 

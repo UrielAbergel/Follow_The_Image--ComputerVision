@@ -16,13 +16,13 @@ import face_recognition
 
 
 # check how much face will be in the photo 
-original_image = cv2.imread('test1')
+original_image = cv2.imread('Picture_for_test/test1')
  
-image_to_detect_test1 = face_recognition.load_image_file('uriel')
+image_to_detect_test1 = face_recognition.load_image_file('Picture_for_test/uriel')
 
 image_face_encoding1 = face_recognition.face_encodings(image_to_detect_test1)[0]
 
-image_to_detect_test2 = face_recognition.load_image_file('ron')
+image_to_detect_test2 = face_recognition.load_image_file('Picture_for_test/ron')
 
 image_face_encoding2 = face_recognition.face_encodings(image_to_detect_test2)[0]
 
