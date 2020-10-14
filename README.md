@@ -18,5 +18,6 @@ A face recognition system, which dresses on a cameSearch system, the system rece
 ````
 # Face recognition from a computer camera
 ``` python RealTimeREC.py
+```
    
     
