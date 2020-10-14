@@ -13,11 +13,13 @@ A face recognition system, which dresses on a cameSearch system, the system rece
    ```
 # Video Face-recognition
 ### A system for recognizing a person's face from a video enclosed on a computer
-```line 13 - rename the path of the vid
+```
+   line 13 - rename the path of the vid
    python VideoDetec.py
 ````
 # Face recognition from a computer camera
-``` python RealTimeREC.py
+``` 
+python RealTimeREC.py
 ```
    
     
